@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230827 01:25:45.485" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20240111 16:52:26.488" rpa="false" schemaversion="4">
 <suite id="s1" name="Amazon" source="C:\Users\glsmk\IdeaProjects\RobotFramework\tests\Amazon.robot">
-<test id="s1-t1" name="Amazon sayfasina git" line="5">
+<test id="s1-t1" name="Aranacak Urun" line="9">
 <kw name="Open Browser" library="SeleniumLibrary">
-<arg>http://www.amazon.com/</arg>
-<arg>chrome</arg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230827 01:25:45.844" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com/'.</msg>
-<status status="PASS" starttime="20230827 01:25:45.840" endtime="20230827 01:26:38.479"/>
+<msg timestamp="20240111 16:52:26.950" level="INFO">Opening browser 'Chrome' to base url 'https://www.amazon.com'.</msg>
+<status status="PASS" starttime="20240111 16:52:26.949" endtime="20240111 16:52:35.787"/>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230827 01:26:40.481" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20230827 01:26:38.480" endtime="20230827 01:26:40.481"/>
-</kw>
-<kw name="Title Should Be" library="SeleniumLibrary">
-<arg>Amazon.com</arg>
-<doc>Verifies that the current page title equals ``title``.</doc>
-<msg timestamp="20230827 01:26:40.496" level="INFO">Page title is 'Amazon.com'.</msg>
-<status status="PASS" starttime="20230827 01:26:40.482" endtime="20230827 01:26:40.496"/>
-</kw>
-<status status="PASS" starttime="20230827 01:25:45.839" endtime="20230827 01:26:40.496"/>
+<status status="PASS" starttime="20240111 16:52:26.948" endtime="20240111 16:52:35.787"/>
 </test>
-<status status="PASS" starttime="20230827 01:25:45.489" endtime="20230827 01:26:40.498"/>
+<status status="PASS" starttime="20240111 16:52:26.491" endtime="20240111 16:52:35.789"/>
 </suite>
 <statistics>
 <total>

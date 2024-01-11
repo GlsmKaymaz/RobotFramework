@@ -1,13 +1,14 @@
 *** Settings ***
 Library    SeleniumLibrary
 
+*** Variables ***
+${BROWSER}    Chrome
+${URL}        https://www.amazon.com
+
 *** Test Cases ***
-Amazon sayfasina git
-    Open Browser    http://www.amazon.com/    chrome
-    Sleep    2s
-    #Anasayfaya ulasildigini dogrula
-    Title Should Be    Amazon.com
-    Sleep    2s
+Aranacak Urun
+    Open Browser    ${URL}    ${BROWSER}
+
 
 
 
